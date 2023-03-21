@@ -1,0 +1,106 @@
+@media screen and (min-device-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx ) and (max-width: 767px) {
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imges/tablet.images/Dark-bg@2x.jpg);
+    }
+  }
+@media screen and (min-width:  768px){
+.mobile-header{
+margin-left: auto;
+margin-right: auto;
+}
+.mobile{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+    .mobail-menu-open{
+   display: none;
+}
+.tablet-container{
+    display: flex;
+    align-items: center;
+}
+.header-list .act::after{
+    content: "";
+    display: block;
+    width: 48px;
+    height: 4px;
+    background: var(--OCEAN);
+    border-radius: 2px;
+    position: absolute;
+    bottom: -1px;
+}
+.hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imges/tablet.images/Dark-bg.jpg);
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .mobil-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+.hero-title{
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+  }
+       .btn{
+width: 169px;
+height: 56px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: var(--IRIS);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 30px;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover,
+.btn:focus{
+  background: var(--OCEAN);
+}
+.advantages-list-svg{
+    display: none;
+}
+.mobile-img{
+display: none;
+}
+.mobile{
+    padding-bottom: 0;
+}
+
+.dop{
+    margin-left: auto;
+    margin-right: auto;
+}
+.advantages-list{
+display: flex;
+gap: 50px;
+}
+.advantages-item{
+
+}
+
+/* .advantages-item:nth-child(-2n+3){
+    margin-right: 24px;
+}
+.advantages-item:nth-child(-n+2){
+    margin-bottom: 72px;
+} */
+}
