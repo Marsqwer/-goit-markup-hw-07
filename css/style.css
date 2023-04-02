@@ -57,9 +57,9 @@ section{
   padding-right: 15px;
 }
 /* фіксований контейнер */
-@media screen and (max-width: 767px){
+@media screen and (min-width: 320px){
     .container{
-      width: 428px;
+      width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -232,8 +232,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* .advantages-list{
    display: flex;
   gap: 24px; 
-} */
-/* .box{
+}
+.box{
 padding-bottom: 0;
 }
 .advantages-list-svg{
@@ -280,7 +280,7 @@ color: var(--SLATE);
   width:  calc((100% - 48px) / 3); 
 } */
 /*(ВАЖНО ЗНАТЬ)*/
-/* .activity-title{
+ /* .activity-title{
 font-family: 'Roboto';
 font-size: 36px;
 line-height: 1.11;
@@ -288,7 +288,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--NAVY_BLUE);
 margin-bottom: 50px;
-}
+} */
                               /* TEAM */
 /* .team{
   background: var(--CLOUD);
@@ -516,9 +516,9 @@ color: #FFFFFF;
 .menu-list{
   display: flex;
   flex-wrap: wrap;
-} */
+}*/
  /*(ВАЖНО ЗНАТЬ)*/
-/* .menu-items{
+/*.menu-items{
   height: 420px;
 width: calc((100% - 48px) / 3);
 background: var(--white);
@@ -582,9 +582,9 @@ color: var(--SLATE);
   transform: translateY(0);
   border: 1px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
+}*/
                           /* MODAL */
-/* .backdrop{
+/*.backdrop{
   width: 100%;
   height: 100%;
   position: fixed;
