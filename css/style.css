@@ -52,27 +52,24 @@ section{
   padding-right: 15px;
 } */
 
-.container{
+
+/* фіксований контейнер */
+.container {
+  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* фіксований контейнер */
-@media screen and (min-width: 320px){
-    .container{
-      width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
 }
-@media screen and (min-width: 768px){
-    .container{
-        width: 736px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .container{
-        width: 1200px;
-    }
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
 }
 
 .is-hidden{
