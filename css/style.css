@@ -302,10 +302,10 @@ border-radius: 0px 0px 4px 4px;
 width: calc((100% - 72px) / 4);
 }
 /*(ВАЖНО ЗНАТЬ)*/
-.team-box{
+/* .team-box{
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 .team-title{
   font-family: 'Roboto';
 font-weight: 500;
@@ -324,11 +324,11 @@ letter-spacing: 0.02em;
 color: var(--SLATE);
 margin-bottom: 8px;
 }
-.team-list-svg{
+/* .team-list-svg{
   display: flex;
   gap: 24px;
   margin-left: 16px;
-}
+} */
 .team-link-svg{
   width: 40px;
   height: 40px;

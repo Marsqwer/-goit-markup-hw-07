@@ -247,7 +247,7 @@ color: var(--SLATE);
 }
 .team-item{
   width: 260px;
-  height: 382px;
+  /* height: 382px; */
 margin-left: auto;
     margin-right: auto;
 background: #FFFFFF;
