@@ -256,12 +256,13 @@ margin-bottom: 72px;
   margin-bottom: 72px;
 } */
 .footer{
+  display: flex;
+  justify-content: center;
   background-color: var(--NAVY_BLUE);
   padding-top: 96px;
   padding-bottom: 96px;
   margin-right: auto;
   margin-left: auto;
-      padding-left: 90px;
 }
 .footer-container{
   display: flex;
