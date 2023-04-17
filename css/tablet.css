@@ -114,7 +114,7 @@ flex-wrap: wrap;
 gap: 72px 24px;
 }
 .advantages-item{
-flex-basis: calc(( 100% - 64px ) / 2);
+flex-basis: calc(( 100% - 24px ) / 2);
 }
 .advantages-title{
 font-size: 36px;
