@@ -295,6 +295,7 @@ background: #2F303A;
 padding-top: 100px;
 padding-bottom: 100px;
 padding-right: 96px;
+padding-left: 80px;
 }
 footer > .container{
   display: flex;
@@ -305,6 +306,7 @@ footer > .container{
 .dox{
 width: 264px;
 margin-right: 0;
+margin-bottom: 0;
 }
 .text{
 margin-top: 16px;
@@ -315,6 +317,7 @@ color: var(--CORNFLOWER);
 }
 .svg-box{
   margin-left: 120px;
+  margin-bottom: 0;
 }
 .svg-text{
 font-weight: 500;
