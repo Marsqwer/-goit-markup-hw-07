@@ -216,6 +216,7 @@ border-radius: 0px 0px 4px 4px;
 /*(ВАЖНО ЗНАТЬ)*/
 .team-box{
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 .team-title{
   font-family: 'Roboto';
@@ -238,7 +239,6 @@ margin-bottom: 8px;
 .team-list-svg{
   display: flex;
   gap: 24px;
-  margin-left: 16px;
 }
 .team-link-svg{
   width: 40px;
