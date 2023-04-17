@@ -240,6 +240,11 @@ color: var(--SLATE);
 .mobile-team{
   background-color: var(--CLOUD);
 }
+.team-list{
+  display: flex;
+  flex-direction: column;
+  gap: 72px 0;
+}
 .team-item{
   width: 260px;
   height: 382px;
@@ -249,9 +254,9 @@ background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 } 
-.team-item:not(:last-child){
+/* .team-item:not(:last-child){
       margin-bottom: 72px;
-    }
+    } */
 .team-box{
   padding: 14px 32px;
 }
