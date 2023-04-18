@@ -46,6 +46,9 @@ opacity: 1;
 }
 .mobile-menu-container{
 /* width: 428px; */
+display: flex;
+height: 100%;
+flex-direction: column;
     position: relative;
     padding-left: 40px;
     padding-top: 80px;
@@ -89,8 +92,11 @@ color: var(--NAVY_BLUE);
 .header-item-mobile:not(:last-child){
   margin-bottom: 40px;
 }
+.navigation-mobile{
+  margin-bottom: auto;
+}
 .mobile-list{
-  margin-top: 284px;
+  /* margin-top: 284px; */
   margin-bottom: 48px;
 }
 .mobile-cont:not(:last-child){
