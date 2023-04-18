@@ -55,7 +55,7 @@ section{
 
 /* фіксований контейнер */
 .container {
-  max-width: 428px;
+  /* max-width: 428px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;

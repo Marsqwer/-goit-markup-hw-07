@@ -304,6 +304,9 @@ margin-bottom: 8px;
 .team-link-svg:focus{
 background-color: var(--OCEAN);
 }
+.customers-container{
+  max-width: 428px;
+}
 .customers-title{
 font-family: 'Roboto';
 font-size: 36px;
