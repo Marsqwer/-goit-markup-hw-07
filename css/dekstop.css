@@ -96,7 +96,9 @@ margin-left: auto;
     }
 
 .hero{
-width: 100%;
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
 padding-top: 188px;
 padding-bottom: 188px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imges/people-office.jpg );
@@ -201,6 +203,9 @@ margin-bottom: 50px;
 }
 .team{
   background: var(--CLOUD);
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team-list{
   display: flex;
@@ -291,6 +296,9 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 20px;
 }
 footer{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 background: #2F303A;
 padding-top: 100px;
 padding-bottom: 100px;
